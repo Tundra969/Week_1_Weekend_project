@@ -1,0 +1,84 @@
+#formContainer{
+	width: 20%;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+form {
+	display: inline-block;
+	width: 90%;
+}
+label {
+	display: block;
+	margin-bottom: 5px;
+	width: 100%;
+	font-size: 17px;
+	border-radius: 5px;
+	padding: 5px;
+}
+input{
+	display: block;
+	margin-bottom: 15px;
+	width: 100%;
+	font-size: 15px;
+	border-radius: 5px;
+	padding: 5px;
+}
+input #submit {
+	background-color: #0000FF;
+}
+
+#employeeContainer{
+	display: inline-block;
+	position: fixed;
+	margin: 15px;
+	border: 10px;
+	padding: 5px;
+	width: 80%;
+}
+
+.employee{
+	border-bottom: 1px solid #808080;
+	height: 30px;
+}
+.employee p{
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 18%;
+	margin: 4px;
+	text-align: center;
+}
+.employee button{
+	width: 100px;
+	background-color: #808080;
+	border-radius: 10px black;
+	padding: 5px;
+}
+.deleteEmployee{
+	border: 0px;
+	padding: 0px;
+	background-color: white;
+	color: red;
+	width: 10%;
+	height: 100%;
+	margin: 0px;
+	text-align: center;
+}
+
+#salaryContainer{
+	display: block;
+	color: red;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 2px solid;
+	width: 100%;
+	position: relative;
+}
+
+#salaryContainer h3{
+	display: inline-block;
+	margin: 5px;
+}
+

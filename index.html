@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+  		<title>Week 1 Weekend Project</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		
+	</head>
+
+	<body>
+		<div id='formContainer'>
+			<form id='employeeinfo'>
+				<label for='employeename'>Employee Full Name:</label>
+				<input type='text' id='employeename' name='employeename'/>
+				<label for='employeenumber'>Employee ID Number:</label>
+				<input type='text' id='employeenumber' name='employeenumber'/>
+				<label for='jobtitle'>Employee Job Title:</label>
+				<input type='text' id='jobtitle' name='jobtitle'/>
+				<label for='salary'>Employee Salary (yearly):</label>
+				<input type='text' id='salary' name='salary'/>
+				<input type='submit' value='Submit Employee'/>
+			</form>
+		</div>
+		<div id='employeeContainer'></div>
+
+
+		<div id='salaryContainer'></div>	
+			<h3 id='monthlysalary'>Total Monthly Salary Paid: $<span>0</span></h3>
+		</div>
+	</body>
+</html>
